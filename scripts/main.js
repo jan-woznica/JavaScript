@@ -6,4 +6,4 @@ akorát mně to nějaká nefunguje xD
 const myHeading = document.querySelector("h1");
 myHeading.textContent = "Hello world!";
 
-let myVariable;
+let myvariable= "bob";
