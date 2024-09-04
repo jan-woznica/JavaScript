@@ -11,5 +11,5 @@ let myvariable= "bob";
 return myvariable;
 
 document.querySelector("html").addEventListener("click", function () {
-  alert("Ouch! Stop poking me!");
+  alert("Au, přestaň");
 });
