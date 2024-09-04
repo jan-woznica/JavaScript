@@ -6,4 +6,4 @@ const myHeading = document.querySelector("h1");
 myHeading.textContent = "Hello world!";
 
 let myvariable= "bob";
-myvariable;
+return myvariable;
