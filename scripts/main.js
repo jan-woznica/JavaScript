@@ -5,5 +5,7 @@ a my heading nastavuje proměnnou pomocí textContent - představuje text nadpis
 const myHeading = document.querySelector("h1");
 myHeading.textContent = "Hello world!";
 
+/* return říká prohlížeči, aby vrátil výsledek funkce, abychom s ním mohli pracovat.
+To je důležité protože výsledky do té doby jsou dostupné pouze uvnitř funkce*/
 let myvariable= "bob";
 return myvariable;
