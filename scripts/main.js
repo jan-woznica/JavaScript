@@ -9,3 +9,7 @@ myHeading.textContent = "Hello world!";
 To je důležité protože výsledky do té doby jsou dostupné pouze uvnitř funkce*/
 let myvariable= "bob";
 return myvariable;
+
+document.querySelector("html").addEventListener("click", function () {
+  alert("Ouch! Stop poking me!");
+});
