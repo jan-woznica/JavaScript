@@ -10,6 +10,8 @@ To je důležité protože výsledky do té doby jsou dostupné pouze uvnitř fu
 let myvariable= "bob";
 return myvariable;
 
-document.querySelector("h1").addEventListener("click", function () {
+/* Označíme html, a zavoláme jeho addeventlistener funkci, která říká, že má poslouchat na event click a rozběhnout funkci, kf
+dyž se to stane*/
+document.querySelector("html").addEventListener("click", function () {
   alert("Au, přestaň");
 });
