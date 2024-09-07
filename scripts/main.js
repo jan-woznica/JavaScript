@@ -10,6 +10,6 @@ To je důležité protože výsledky do té doby jsou dostupné pouze uvnitř fu
 let myvariable= "bob";
 return myvariable;
 
-document.querySelector("html").addEventListener("click", function () {
+document.querySelector("h1").addEventListener("click", function () {
   alert("Au, přestaň");
 });
