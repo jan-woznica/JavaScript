@@ -7,7 +7,7 @@ poté kód volá API localstorage, která umožnuje skladovat data a získat je 
 J8 používám localstorage seitem funkci, která vytvoří a uloží data jména pod názvem myName
 poté nastavíme texContent na string + jméno*/
 function setUserName() {
-  let myName = prompt("Please enter your name.");
+  let myName = prompt("Prosím, vepište své jméno.");
 /*
   localStorage.setItem("name", myName);
   myHeading.textContent = `Mozilla is cool, ${myName}`;
@@ -28,7 +28,7 @@ Následující kód kontroluje, aby hodnota nemohla být null nebo prázdná*/
     setUserName();
   } else {
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'Mozilla is cool, ' + myName;
+    myHeading.innerHTML = 'Užij si Javascript, ' + myName;
   }
 }
 
@@ -36,7 +36,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   let storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
+  myHeading.innerHTML = 'Užij si Javascript, ' + storedName;
 }
 
 myButton.onclick = function() {
