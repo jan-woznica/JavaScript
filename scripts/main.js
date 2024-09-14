@@ -1,4 +1,4 @@
-/*Personalizovaná zpráva - nyní vybere, kam to chceme směřovat*/
+/*Personalizovaná zpráva - nyní vybere, kam to chceme směřovat*/ 
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 /*Nyní je funkce
