@@ -1,15 +1,3 @@
-/*img jsem uschoval v myImage*/
-const myImage = document.querySelector("img");
-/*Poté jsem vytvořil anonymní eventhandler onclick
-a kód vezme src a kontroluje, zda je rovna nebo ne*/
-myImage.onclick = () => {
-  const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/billie.jfif") {
-    myImage.setAttribute("src", "images/kim.jpg");
-  } else {
-    myImage.setAttribute("src", "images/billie.jfif");
-  }
-};
 /*Personalizovaná zpráva - nyní vybere, kam to chceme směřovat*/
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
