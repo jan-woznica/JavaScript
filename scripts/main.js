@@ -1,3 +1,5 @@
+/*PO kliknutí na tlačítko, se vloží text pod*/
+
 function createParagraph() {
   const para = document.createElement("p");
   para.textContent = "You clicked the button!";
